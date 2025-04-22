@@ -68,6 +68,6 @@ final class FuncoesTest extends TestCase
     public function testCalculateDiscountValorNegativoDisparaExcecao(): void
     {
         $this->expectException(InvalidArgumentException::class);
-        Funcoes::calculateDiscount(-50,  10);
+        Funcoes::calculateDiscount(-50, 10); 
     }
 }
