@@ -2,18 +2,18 @@
 
 Projeto acadêmico para praticar *Testes Unitários* em PHP usando *PHPUnit*.
 
-> *Participantes*  
-> • *Rafael Luan Schmitz*  
+> *Participantes*
+> • *Rafael Luan Schmitz*
 > • *Pietro Porsch Wilhelms*
 
 ---
 
 ## ✨ Objetivos
 
-1. Compreender o conceito de testes unitários.  
-2. Escrever testes para funções puras em PHP.  
-3. Identificar e tratar casos de borda e falhas.  
-4. Automatizar a execução com PHPUnit e garantir cobertura próxima de 100 %.  
+1. Compreender o conceito de testes unitários.
+2. Escrever testes para funções puras em PHP.
+3. Identificar e tratar casos de borda e falhas.
+4. Automatizar a execução com PHPUnit e garantir cobertura próxima de 100 %.
 
 ---
 
@@ -45,3 +45,12 @@ cd php-unit-tests
 
 # instale as dependências
 composer install
+
+## 📈 Cobertura de código
+
+Gerar relatório HTML:
+
+```bash
+composer coverage
+# ou
+vendor\bin\phpunit --coverage-html coverage
