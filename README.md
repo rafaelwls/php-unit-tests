@@ -40,7 +40,7 @@ Projeto acadêmico para praticar *Testes Unitários* em PHP usando *PHPUnit*.
 
 ```bash
 # clone o repositório
-git clone https://github.com/<SEU_USER>/php-unit-tests.git
+git clone https://github.com/rafaelwls/php-unit-tests.git
 cd php-unit-tests
 
 # instale as dependências
