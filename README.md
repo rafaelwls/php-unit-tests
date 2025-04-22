@@ -48,8 +48,6 @@ composer install
 
 ## 📈 Cobertura de código
 
-Gerar relatório HTML:
-
 ```bash
 composer coverage
 # ou
